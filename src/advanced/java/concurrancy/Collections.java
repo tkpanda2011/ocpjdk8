@@ -35,7 +35,7 @@ public class Collections {
 		//	blockingDeque();
 		//	concurrantMap();
 		//	concurrentNavigableMap();
-	    //	cyclicBarrier();
+	    	cyclicBarrier();
 		//copyOnWriteArrayList();
 
 	}
@@ -50,7 +50,9 @@ public class Collections {
 		new DelayQueueConsumer("Consumer Thread-1", queue).start();
 
 	}
-
+	/**
+	 * Copy on arrayList is used to avoid cocurrent modificaation exception .
+	 */
 	private static void copyOnWriteArrayList() {
 		List<String> names =new CopyOnWriteArrayList<String>();
 		names.addAll( Arrays.asList(new String[]{"Tripati","Komal","rakesh","Srijith","ajeet","amar"}));

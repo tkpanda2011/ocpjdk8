@@ -3,8 +3,9 @@ package advanced.java.io.fundamentals;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.concurrent.locks.ReentrantLock;
 
-public class BufferedWriter {
+public class BufferedWriterExample {
 
 	public static void main(String[] args) {
 		File file = new File("d:\\jdk8\\testwrite.txt");
@@ -19,7 +20,7 @@ public class BufferedWriter {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-				
+		
 		
 	
 	}

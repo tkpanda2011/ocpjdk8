@@ -2,7 +2,7 @@ package advanced.java.locale;
 
 import java.util.ListResourceBundle;
 
-public class ResBundel extends ListResourceBundle {
+public class ResBundelt extends ListResourceBundle {
 
 	static final Object[][] content  = {
 			{"MovieName","avtar"},
@@ -10,7 +10,7 @@ public class ResBundel extends ListResourceBundle {
 			{"year",(Integer)2009}
 	};
 	
-	public ResBundel() {
+	public ResBundelt() {
 		// TODO Auto-generated constructor stub
 	}
 

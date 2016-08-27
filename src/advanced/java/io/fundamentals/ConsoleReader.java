@@ -16,6 +16,7 @@ public class ConsoleReader {
 		   {
 			   System.out.println("Ready to take input");
 		      s = console.readLine();
+		     
 		      System.out.println(s);
 		   }
 		} catch (Exception ex)

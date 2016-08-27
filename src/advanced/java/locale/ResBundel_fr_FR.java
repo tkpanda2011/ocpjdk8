@@ -5,7 +5,7 @@ import java.util.ListResourceBundle;
 public class ResBundel_fr_FR extends ListResourceBundle {
 
 	static final Object[][] content  = {
-			{"MovieName","avtar"},
+			{"MovieName","avtarFrance"},
 			{"GrossRevenue",(Long) 2782275172L},
 			{"year",(Integer)2009}
 	};
