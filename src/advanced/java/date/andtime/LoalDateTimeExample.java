@@ -10,6 +10,7 @@ public class LoalDateTimeExample {
 
 	public static void main(String[] args) {
 		LocalDateTime dateTime = LocalDateTime.now();
+		
 		LocalDateTime zoneIdDateTime = LocalDateTime.now(ZoneId.of("Asia/Kolkata"));
 		LocalDateTime timeOf = LocalDateTime.of(LocalDate.now(), LocalTime.of(13, 40, 23));
 		

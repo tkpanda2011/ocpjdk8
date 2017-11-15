@@ -16,7 +16,7 @@ public class ConsumerTest {
 		/*
 		 * instance of ConsumerTest passed to acept and Syso called for the instance .
 		 */
-		consumer2.accept(new ConsumerTest() );
+		//consumer2.accept(new ConsumerTest() );
 	}
 	private static void printContent(String content) {
 		System.out.println("Content invoked "+content);

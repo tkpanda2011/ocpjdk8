@@ -11,8 +11,8 @@ public class StaticInnerClass {
 		
 	}
 
-	private static class InnerClass {
-		
+	public  static  class InnerClass extends BaseClass{
+		private String staticMember = "StaticInnerClassStaticMember";
 		public  String getNonStaticInnerMethod() {
 			
 			return "FROM INNER";

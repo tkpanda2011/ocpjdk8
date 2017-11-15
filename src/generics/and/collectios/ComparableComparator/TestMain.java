@@ -25,6 +25,10 @@ public class TestMain {
 		Collections.sort(emps, new EmployeeSalComparator());
 		
 		System.out.println(emps);
+		
+		StringBuilder sb = new StringBuilder("test");
+		
+		System.out.println(sb);
 	}
 
 }

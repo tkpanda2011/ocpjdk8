@@ -1,8 +1,9 @@
 package generics.and.collectios.ComparableComparator;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Departments implements Comparable<Departments> {
+public class Departments implements Comparable<Departments> , Serializable {
 	private String departmentId;
 	private String departmentName;
 	private List<Employee> employees;

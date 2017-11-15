@@ -12,10 +12,11 @@ public class NestedInnerClasses {
 		NestedInnerClasses.NestedClass innerClass2 = outerClass.new NestedClass();
 	}
 	
-	private class NestedClass {
+	public  class NestedClass {
 		
-		public void getInnerMethodData() {
-			
+		public String getInnerMethodData(BaseClass base) {
+			base = new BaseClass();
+			return base.toString();
 		}
 		
 		/*
@@ -31,4 +32,6 @@ public class NestedInnerClasses {
 		
 		*/
 	}
+	
+	
 }
